@@ -8,7 +8,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 <style>
-  img{
+  .ig{
     width: 100%;
     height: 750px;
     object-fit: cover;
@@ -19,6 +19,18 @@
   .nav-link:hover{
     color: #ffC107;
   }
+  p{
+    text-align: justify;
+  }
+  .i {
+            height: 500px;
+            object-fit: cover;
+        }
+        .cp {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 10px;
+        }
 
 </style>
 </head>
@@ -36,20 +48,20 @@
           Fashion Styles
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Men’s Fashion</a></li>
-            <li><a class="dropdown-item" href="#">Women’s Fashion</a></li>
+            <li><a class="dropdown-item" href="#men's fashion">Men’s Fashion</a></li>
+            <li><a class="dropdown-item" href="#women's fashion">Women’s Fashion</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
+        <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
         <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
       </ul>
     </header>
   </div>
 
-  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+  <div id="myCarousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="vibrant_attire_image.jpeg" alt="" >
+        <img src="vibrant_attire_image.jpeg" alt="" class="ig">
         <div class="container">
           <div class="carousel-caption text-start">
             <h1>Experience the Vibrance of Punjabi Fashion!</h1>
@@ -77,43 +89,195 @@
         </div>
       </div>
 
-      <div class="container px-4 py-5" id="featured-3">
-        <h2 class="pb-2 border-bottom">Men's Fashion</h2>
+      <div class="container px-4 py-5" id="featured-6">
+        <h2 class="pb-2 border-bottom" id="men's fashion">Men's Fashion</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="feature col">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"/></svg>
+              <img src="men_kurtapajama.jpeg" alt="" height="350" width="350">
             </div>
-            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"/></svg>
-            </a>
+            <h3 class="fs-2 text-body-emphasis">Kurta-Pajama</h3>
+            <p>The Punjabi Kurta-Pajama is a timeless outfit for men, featuring a well-crafted, embroidered kurta paired with a classic pajama. Often worn with a stylish turban and traditional jutti, this attire symbolizes Punjabi culture, elegance, and comfort, making it ideal for festivals, weddings, and cultural events.</p>
           </div>
           <div class="feature col">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+              <img src="men_sherwani.jpeg" alt="" height="350" width="350">
             </div>
-            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"/></svg>
-            </a>
+            <h3 class="fs-2 text-body-emphasis">Sherwani</h3>
+            <p>The Punjabi Sherwani is a regal outfit, often worn for weddings and grand celebrations. Designed with intricate embroidery, rich fabrics, and elegant patterns, it exudes sophistication. Paired with churidar pants, a matching turban, and traditional jutti, the Sherwani showcases Punjabi heritage, blending tradition with modern elegance for a royal look.</p>
+            </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="men_turban.jpeg" alt="" height="350" width="350">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Turban (Pagri)</h3>
+            <p>The Punjabi Turban (Pagri) is a symbol of pride, honor, and cultural heritage. Tied in vibrant green and yellow, it represents tradition and identity. Worn by men for special occasions, it complements traditional attire like Kurta-Pajama and Sherwani, adding elegance and grace to the overall Punjabi look.</p>
           </div>
           <div class="feature col">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+              <img src="men_juti.jpeg" alt="" height="350" width="350">
             </div>
-            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"/></svg>
-            </a>
-          </div>
+            <h3 class="fs-2 text-body-emphasis">Jutti (Traditional)</h3>
+            <p>The Punjabi Jutti is a traditional handcrafted footwear, known for its intricate embroidery and vibrant designs. Made from fine leather or fabric, it blends comfort with cultural elegance. The bright green and yellow combination adds a stylish touch, making it a perfect match for ethnic outfits like Sherwani and Kurta-Pajama.</p>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <img src="men_angrakha.jpeg" alt="" height="350" width="350">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Angrakha</h3>
+              <p>The Punjabi Angrakha is a traditional wrap-around garment, known for its overlapping design tied with fabric strings. Made from rich fabrics with intricate embroidery, it exudes elegance and cultural heritage. Paired with churidar pants and a turban, the Angrakha is perfect for festive occasions, weddings, and formal celebrations in Punjab.</p>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                  <img src="men_dhotikurta.jpeg" alt="" height="350" width="350">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Dhoti-Kurta</h3>
+                <p>The Punjabi Dhoti-Kurta is a classic traditional outfit, featuring a comfortable, embroidered kurta paired with a neatly draped dhoti. This attire reflects cultural elegance and is often worn during religious ceremonies, festivals, and special occasions. Paired with a turban and jutti, it showcases the rich heritage of Punjab with grace.</p>
+                </div>
         </div>
       </div>
+
+      <div class="container  py-5" id="featured-6" style="margin-top: -70px;">
+        <h2 class="pb-2 border-bottom" id="women's fashion">Women's Fashion</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="women_salwarkameez.jpeg" alt="" height="350" width="350">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Salwar Kameez</h3>
+            <p>The Punjabi Salwar Kameez is a classic ethnic outfit featuring a beautifully embroidered kameez paired with a pleated salwar and a matching dupatta. Known for its comfort and elegance, this attire is perfect for daily wear, festivals, and weddings, showcasing Punjab’s rich cultural heritage with vibrant colors and intricate designs.</p>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="women_patialasuit.jpeg" alt="" height="350" width="350">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Patiala Suit</h3>
+            <p>The Punjabi Patiala Suit is a stylish and comfortable ensemble featuring a short, embroidered kameez paired with a voluminous, pleated Patiala salwar and a matching dupatta. Known for its royal flair and elegant drape, this outfit is perfect for festive occasions, weddings, and everyday wear, symbolizing Punjab’s rich cultural heritage.</p>
+            </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="women_phulkaridupatta.jpeg" alt="" height="350" width="350">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Phulkari Dupatta</h3>
+            <p>The Phulkari Dupatta is a vibrant and intricately embroidered piece that showcases Punjab’s rich textile heritage. Adorned with colorful floral patterns and geometric designs, it is often paired with traditional outfits like Salwar Kameez or Patiala Suits. This handcrafted dupatta adds a regal touch to festive and cultural occasions.</p>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="women_sararasuit.jpeg" alt="" height="350" width="350">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Sharara Suit</h3>
+            <p>The Punjabi Sharara Suit is a stunning ensemble featuring a short, intricately embroidered kameez paired with flared, wide-legged sharara pants and a matching dupatta. This regal attire is perfect for weddings, celebrations, and festivals, showcasing Punjab’s vibrant fashion heritage with its flowing silhouette and exquisite craftsmanship.</p>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <img src="women_lahengacholi.jpeg" alt="" height="350" width="350">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Lehenga Choli</h3>
+              <p>The Punjabi Lehenga Choli is a gorgeous ensemble featuring a heavily embroidered choli (blouse) paired with a flowing lehenga (skirt) and a matching dupatta. This elegant outfit is perfect for weddings, festivals, and special occasions, showcasing Punjab’s rich fashion heritage with its vibrant colors and intricate craftsmanship.</p>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                  <img src="women_assessaries.jpeg" alt="" height="350" width="350">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Accessories</h3>
+                <p>Punjabi women's fashion is incomplete without stunning accessories like colorful bangles, an elegant Paranda for braided hair, and intricately designed nose rings (Nath). These accessories add charm and cultural richness to traditional outfits, enhancing the beauty and elegance of festive and bridal looks.</p>
+                </div>
+        </div>
+      </div>
+
+      <div class="container" id="gallery" style="margin-top: -20px;">
+        <h2 class="text-center mb-4">Punjabi Fashion Gallery</h2>
+        <div id="fashionCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="traditinal_attire.jpeg" class=" i d-block w-100" alt="Traditional Punjabi Attire">
+                    <div class="carousel-caption cp">
+                        <h5>Traditional Punjabi Attire</h5>
+                        <p style="text-align: center;">Richly embroidered Salwar Kameez, vibrant Dupattas, and cultural accessories.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="modern_punabifashion.jpeg" class="i d-block w-100" alt="Modern Punjabi Fashion">
+                    <div class="carousel-caption cp">
+                        <h5>Modern Punjabi Fashion</h5>
+                        <p style="text-align: center;">Fusion of traditional designs with contemporary styles, bold colors, and trendy cuts.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="weddings_festivals.jpg" class="i d-block w-100" alt="Punjabi Weddings & Festivals">
+                    <div class="carousel-caption cp">
+                        <h5>Punjabi Weddings & Festivals</h5>
+                        <p style="text-align: center;">Grand sherwanis, colorful lehengas, and festive outfits with intricate details.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#fashionCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#fashionCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+    
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
 </body>
 </html>
